@@ -1,5 +1,8 @@
 public class MixedSum {
-  
+  /***
+  * This function assume input is of type int or string only
+  * and returns the final output as a integers sum
+  ***/
   public fun sum(mixed: List<Any>): Int {
       var result = 0
       for(x in mixed) {
